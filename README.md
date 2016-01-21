@@ -1,14 +1,16 @@
 # scrapy-development-docker
 Web Scraping Development Docker Container
 
-##To Build
+This container includes python, selenium, beautifulsoup, scrapy, scrapyjs, boto3
+
+##Build the Image
 Use docker build to buid your web scraping container
 
 ```
 docker build -t scrapy .
 ```
 
-##To Run
+##Start the Container
 Use -v to mount your local development spider code
 
 ```
